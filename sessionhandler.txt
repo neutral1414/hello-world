@@ -1,0 +1,21 @@
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+/*
+#print_r($request->session->all());
+
+Session::put('test','test');  // store session
+Session::put('try','test');   // store session
+Session::put('test2','test'); // store session
+
+
+
+echo "<br><pre>".Session::get('test'); // get the session
+
+echo "<br>";
+
+Session::forget('test');  // remove specific session
+#Session::flush('test');  // remove all sessions
+
+print_r(Session::all());  // display all sessions
+*/
